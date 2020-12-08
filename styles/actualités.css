@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.blocTête{
+    display: block;
+
+}
+.blocTête a{
+    text-decoration: none;
+   
+}
+.blocTête form{/*pour faire bouger recherche*/
+    margin-left: 20px;
+}
+.blocTête form button img{
+    width: 25px;
+    height: 25px;
+}
+.blocTête form input{
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.blocTête form{
+    width: 189,10px;
+    height: 35px;
+    background: white;
+    display: flex;
+}
+.blocTête form button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.en_Tête{
+    display: flex;
+    justify-content: space-around;
+}
+.blocHead{
+    margin: 10px auto;
+}
+.titre{
+    margin-top: 5px;
+}
+.titre h3{
+    margin-top: 10px;
+    color: rgb(214, 210, 210);
+}
+.contenu{
+    width: 100%;
+    height: 50px;
+    border: solid 2px rgb(238, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contenu a{
+    text-decoration: none;
+    margin: 10px;
+}
+main{
+    background-color: rgb(236,240,241);
+    z-index: 0;
+}
+.presse{
+    display: flex;
+}
+.color{
+    height: 550px;
+    width: 500px;
+    margin-left: 150px;
+    background-color: white;
+    margin-top: 20px;
+    border-top: 5px solid rgb(16, 69, 145);
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #949da2;
+    padding: 20px;
+ 
+}
+.color h2{
+    color:#004b7a;
+    font-weight: lighter;
+}
+.bare{
+    border: solid 3px #104591;;
+    width: 495px;
+}
+.bare2{
+    border: solid 1px  #dcdcdc;
+    width: 495px;
+}
+.photo{
+    display: flex;
+}
+.photo a{
+    color:  #104591;
+    font-weight: lighter;
+    font-size: 1.17em;
+    text-decoration: none;
+}
+.text a{
+    text-decoration: none;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    color:  rgb(37,102,173);
+    line-height: 1.2;
+    font-weight: lighter;
+    font-size: 75.5%;
+}
+.photo1{
+    display: flex;
+}
+.photo1 a{
+    color:   rgb(37,102,173);
+    font-weight: lighter;
+    font-size: 1.17em;
+    text-decoration: none;
+}
+.photo2{
+    display: flex;
+}
+.photo2 a{
+    color:   rgb(37,102,173);;
+    font-weight: lighter;
+    font-size: 1.17em;
+    text-decoration: none;
+}
+.photo3{
+    display: flex;
+}
+.photo3 a{
+    color:  #104591;
+    font-weight: lighter;
+    font-size: 1.17em;
+    text-decoration: none;
+}
+.bare3{
+    border: solid 1px black;
+    width: 495px;
+}
+.bas{
+    margin-left: 55%;
+    color: rgb(37,102,173);
+    font-size: 1.02em;
+    font-weight: lighter;
+}
+.right_top{
+    border-top: 5px solid rgb(16, 69, 145);
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #949da2;
+    height: 100px;
+    width: 300px;
+    margin-left: auto;
+    position: relative;
+    bottom:570px;
+    right: 250px;
+    margin-top: -20px;
+    background-color: white;
+    
+}
+.right_top h2{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(67, 89, 119);
+}
+.top_bare{
+    border: solid 1px #dcdcdc;
+    width: 300px;
+}
+.text_top a{ 
+    font-size: 62.5%;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.right_top2{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin-left: auto;
+    position: relative;
+    bottom: 550px;
+    right: 250px;
+
+}
+.right_top2_1{
+    height: 190px;
+    width: 290px;
+    background-color:#dcdcdc;
+    margin-left: 10px;
+    padding-bottom: 2px;
+     
+}
+.contain{
+    background-color: #323136;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.lien a{
+    text-decoration: none;
+    color: white;
+}
+.lien h2{
+    color: white;
+}
+.trait{
+    width: 250px;
+    background-color: white;
+    height: 2px;
+}
+.lien2{
+    display: flex;
+    display: table-column;
+    color: white;
+    text-decoration:none;
+}
+.lien2 a{
+    text-decoration: none;
+    color: white;
+}
+.A+{
+    position: relative;
+    bottom: 50px;
+}
