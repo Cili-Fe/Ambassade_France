@@ -84,7 +84,7 @@ header > nav > div{
     margin-left: 60px;
 }
 header > nav > div > a{
-    font-size: 18px;
+    font-size: 16px;
     color: var(--blueColor);
     padding: 25px;
 }
@@ -121,17 +121,20 @@ main{
     font-weight: bolder;
     color: var(--blueColor);
 }
-#diapo{
+.diapo{
+    width: inherit;
+    
+}
+.diapo_cont{
     width: 1200px;
     display: flex;
-    overflow: hidden;
-    margin-left: 35px;
+    margin: auto;
 }
-#diapo #diapo_1{
-    display: inline-flex;
+.diapo_cont > img{
+    width: 50%;
 }
 .diapo_text{
-    width: 580px;
+    width: 50%;
     height: 270px;
     color: #fff;
     background: var(--blueColor);
@@ -139,28 +142,12 @@ main{
     padding: 30px;
     overflow: hidden;
 }
-.diapo_text span{
+.date{
     font-style: italic;
     color: rgb(187, 184, 184);
 }
 .diapo_text p{
     line-height: 25px;
-}
-.diapo_img img{
-    width: 580px;
-    height: 332px;
-}
-#diapo #diapo_2{
-    display: inline-flex;
-}
-#diapo #diapo_3{
-    display: inline-flex;
-}
-#diapo #diapo_4{
-    display: inline-flex;
-}
-#diapo #diapo_5{
-    display: inline-flex;
 }
 #actu {
     width: 750px;
