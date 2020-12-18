@@ -1,140 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Accueil</title>
-    <link rel="stylesheet" href="styles/accueil.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/accueil.css" type="text/css" />
+  </head>
+  <body>
     <header>
         <div class="header_bloc_1">
-                <a href="#" id="brand_link"><img src="logo.png" alt="Ministère des affaires européennes et de la diplomatie" id="logo"></a>
+            <a href="#" id="brand_link"><img src="logo.png" alt="Ministère des affaires européennes et de la diplomatie" id="logo"></a>
             <div id="titles">
-                <h1>La France au Burkina Faso</h1>
-                <h2>Ambassade de France à Ouagadougou</h2>
-            </div>
-            <div class="form_bloc">
-                <div class="upForm_links">
-                        <a href="#">&rightarrow;<span>Menu</span></a>
-                        <a href="#">&rightarrow;<span>Contenu</span></a>
-                        <a href="#">&rightarrow;<span>Plan du site</span></a>
-                </div>
-                <form action="#">
-                    <input type="text" placeholder="Rechercher:">
-                    <button type="submit">
-                        <img src="fonts/search.png">
-                    </button>
-                </form>
+               <h1>La France au Burkina Faso</h1>
+               <span>Ambassade de France à Ouagadougou</span>
+               <h2>Ambassade de France à Ouagadougou</h2>
             </div>
         </div>
-        <nav>
-            <div>
-                <a href="#">Actualités</a>
-                <span>|</span>
-                <a href="#">Ambassade</a>
-                <span>|</span>
-                <a href="#">Consulat</a>
-                <span>|</span>
-                <a href="#">Coopération</a>
-                <span>|</span>
-                <a href="#">Aller en France</a>
-                <span>|</span>
-                <a href="#">Venir au Burkina Faso</a>
-                <span>|</span>
-                <a href="#">Espace Presse</a>
-            </div>
-        </nav>
+      <div class="form_bloc">
+        <div class="upForm_links">
+                <a href="#">&rightarrow;<span>Menu</span></a>
+                <a href="#">&rightarrow;<span>Contenu</span></a>
+                <a href="#">&rightarrow;<span>Plan du site</span></a>
+        </div>
+        <form action="#">
+            <input type="text" placeholder="Rechercher:">
+            <button type="submit">
+                <img src="fonts/search.png" class="icon">
+            </button>
+        </form>
+    </div>
+      <div class="menu_bar">
+        <a href="#">
+          <img src="fonts/menu.png" class="icon" />
+          <img src="fonts/d_arrow.png" class="icon" />
+        </a>
+      </div>
+      <nav>
+        <div>
+            <a href="#">Actualités</a>
+            <span>|</span>
+            <a href="#">Ambassade</a>
+            <span>|</span>
+            <a href="#">Consulat</a>
+            <span>|</span>
+            <a href="#">Coopération</a>
+            <span>|</span>
+            <a href="#">Aller en France</a>
+            <span>|</span>
+            <a href="#">Venir au Burkina Faso</a>
+            <span>|</span>
+            <a href="#">Espace Presse</a>
+        </div>
+    </nav>
     </header>
     <main>
-        <div id="settings">
-            <a href="#">A<sup>+</sup></button>
-            <a href="#">A-</a>
-            <a href="#"><img src="fonts/wifi.png"  class="wifi_icon"></a>
+        <div class="two">
+            <span>A</span>
+            <span>+</span>
+            <span class="a_minus">A-</span>
+            <img src="fonts/wifi.png">
         </div>
-        <div class="diapo_zone">
-            <div class="diapo_cont">
-                <div class="diapo_text">
-                    <span class="date">2 décembre 2020</span><br>
-                    <h1>L’Ambassade de France recrute!</h1>
-                    <p>AVIS DE RECRUTEMENT LOCAL <br> 
-                        Vous êtes à la recherche d’emploi pour mettre à profit vos compétences ? L’ambassade de France recrute ! 
-                        Consultez les 3 profils recherchés (chauffeur, maître d’hôtel, assistante de direction) et rejoignez l’équipe!</p>
-                </div>
-                <img src="images/offre.png" id="diapo_img">
-            </div>
+      <div class="diapo_zone">
+        <div class="diapo_cont">
+          <img class="diapo_img" src="images/cloture_1.jpg" alt="" />
+          <div class="diapo_text">
+            <span id="date" class="date">08 décembre 2020</span>
+            <h1 id="title">Clôture des projets PISCCA 2019-2020</h1>
+            <p id="par">Le vendredi 04 décembre 2020, quinze associations burkinabè, ont présenté les activités qu’elles ont réalisées grâce au fonds d’appui PISCCA, soit un montant total de 491 millions de F CFA, octroyé par l’ambassade de (...)</p>
+          </div>
         </div>
-        <div id="actu">
-            <div id="actu_header">
-                <h2>Actualités</h2>
-                <div id="nav">
-                    <span>1-5 de 50</span>
-                    <button>&lt;</button>
-                    <span>|</span>
-                    <button><a href="#">&gt;</a></button>
-                </div>
-            </div>
-            <hr>
-                <ul>
-                    <li>
-                        <div>
-                            <a href="#"><img src="images/consulat_Ouaga.jpg"class="actu_img"></a>
-                        </div>
-                        <div class="txt">
-                            <span class="dateactu">20 novembre 2020</span><br>
-                            <span><a href="#" class="actu_title">Signaler un contenu suspect ou illicite avec PHAROS
-                            </a></span><br>
-                            <span>Internet et les médias sociaux proposent des contenus fondés sur la participation, le partage et l’échange. Ils sont les modes de communication qui mettent en relation des personnes autour d’intérêts communs. (...)</span><br>
-                            <a href="#" class="actu_link">&rightarrow;[lire...]</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/le blue france.jpg"class="actu_img"></a>
-                        <div>
-                            <span class="dateactu">20 novembre 2020</span><br>
-                            <span><a href="#" class="actu_title">Commémoration du 102e anniversaire de l’Armistice du 11 novembre 1918</a></span>
-                            <span>A Ouagadougou, la cérémonie présidée par son excellence Monsieur l’ambassadeur de France et le chef d’état-major général des armées burkinabè, a rassemblé de nombreuses délégations diplomatiques, des militaires burkinabè, français, (...)</span><br>
-                            <a href="#" class="actu_link">&rightarrow;[lire...]</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/BF a l'honneur.jpg"class="actu_img"></a>
-                        <div>
-                            <span class="dateactu">18 novembre 2020</span><br>
-                            <span><a href="#" class="actu_title">Le Burkina Faso à l’honneur au Bpifrance Inno Génération 2020</a></span>
-                            <span>Trois (3) burkinabè, Madame Florence BASSONO (Faso Attiekié) , Monsieur Azize Diloma HEMA (Association Africa Ecologie) et Madame Kadidja SIMBORO (Farafina Eco-Engineering) ont brillamment représenté le Burkina Faso, à (...)</span><br>
-                            <a href="#" class="actu_link">&rightarrow;[lire...]</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/cooperation.jpg"class="actu_img"></a>
-                        <div>
-                            <span class="dateactu">13 novembre 2020</span><br>
-                            <span><a href="#" class="actu_title">Coopération bilatérale : cinq (5) jours d’mmersion dans les villes de Bobo-Dioulasso et de (...)</a></span>
-                            <span>Du 5 au 10 novembre 2020, une forte délégation de l’ambassade de France au Burkina Faso, a effectué une mission de travail à Bobo Dioulasso, puis à Banfora. 
-                                L’ambassadeur Luc Hallade a rejoint en milieu de semaine, ses chefs (...)</span><br>
-                            <a href="#" class="actu_link">&rightarrow;[lire...]</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/ceremonie.jpg"class="actu_img"></a>
-                        <div>
-                            <span class="dateactu">13 novembre 2020</span><br>
-                            <span><a href="#" class="actu_title">15 nouveaux ambassadeurs français à la Résidence de France</a></span>
-                            <span>Le 29 octobre 2020, l’ambassadeur de France a remis les certificats de nationalité française à 15 burkinabè qui ont choisit d’acquérir la nationalité française. 
-                                Ces derniers, désormais français par les liens du (...)</span><br>
-                            <a href="#" class="actu_link">&rightarrow;[lire...]</a>
-                            </div>
-                    </li>
-                </ul>
-        </div>
+      </div>
+      <div id="g_contain_block">
         <div id="little_box_1">
             <div>
-                <h2>Accès rapide</h2>
-                <img src="fonts/local.PNG">
+                <span>Nos coordonnées</span>
+                <img src="fonts/location.png">
             </div>
             <ul>
                 <li>
@@ -153,8 +93,8 @@
         </div>
         <div id="little_box_2">
             <div>
-                <h2>Accès rapide</h2>
-                <img src="fonts/option.PNG">
+                <span>Accès rapide</span>
+                <img src="fonts/link_intact.png">
             </div>
             <ul>
                 <li>
@@ -171,157 +111,215 @@
                 </li>
             </ul>
         </div>
-        <div id="fb_page">
-            <div class="heading">
-                <span>Suivez-nous sur Facebook</span>
-            </div>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fambassade.france.burkina%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden;margin: auto;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="card">
+        <div class="heading">
+          <span>Suivez-nous sur Facebook</span>
         </div>
-        <div class="little_block">
-            <div class="heading">
-                <span>Lines utiles</span>
-            </div>
-            <ul>
-                <li>
-                    <a href="#">&rightarrow;Expertise française</a>
-                </li>
-                <li>
-                    <a href="#">&rightarrow;Campus France</a>
-                </li>
-                <li>
-                    <a href="#">&rightarrow;France Volontaires</a>
-                </li>
-                <li>
-                    <a href="#">&rightarrow;Label Qualité français langue étrangère</a>
-                </li>
-                <li>
-                    <a href="#">&rightarrow;Vivre à l'étranger</a>
-                </li>
-                <li>
-                    <a href="#">&rightarrow;LattitudeFrance</a>
-                </li>
-            </ul>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fm.facebook.com%2Fambassade.france.burkina&tabs=timeline&width=300px&height=390px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300px" height="390px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="card">
+        <div class="heading">
+          <span>Situation sécuritaire</span>
         </div>
-        <div class="little_block consul">
-            <div class="heading">
-                <span>Prendre un rendez-vous avec le Consulat</span>
-            </div>
-                <img src="images/consulat.png">
+        <div class="content">
+          <img class="content_img" src="images/carte_bf.jpg" alt="Zones déconseillées aux Français Burkina Faso" />
+          <p>
+            La carte des "Conseils aux voyageurs" français a fait l’objet, le 15 août 2020, d’un aménagement afin de tenir compte de l’évolution de la situation sécuritaire dans le pays.
+          </p>
+          <p>
+            Merci de prendre connaissance de ces informations sur<br /><a href="#">le site France Diplomatie</a>
+          </p>
         </div>
-        <div class="little_block map">
-            <div class="heading">
-                <span>Situation sécuritaire</span>
-            </div>
-                <img src="images/carte_bf.jpg">
-                <p>La carte des "Conseils aux voyageurs" français a fait l’objet, le 15 août 2020, d’un aménagement afin de tenir compte de l’évolution de la situation sécuritaire dans le pays.Merci de prendre connaissance de ces informations sur <br><a href="#">&rightarrow;Le site France Diplomatie</a></p>
+      </div>
+      <div class="actu actualites">
+        <div class="actu_head">
+          <span class="actu_heading">Actualités</span>
+          <div class="actu_nav">
+            <span>1-5 de 50</span>
+            <span id="left">&lt;</span>
+            <span id="stroke">|</span>
+            <span id="right">&gt;</span>
+          </div>
         </div>
-        <div class="little_block institute">
-            <div class="heading">
-                <span>Cliquez sur l’image ci-dessous pour découvrir le programme</span>
-            </div>
-                <img src="images/institut.png">
+        <hr />
+        <div class="actu_content">
+          <div class="actu_img">
+            <img src="images/cloture_1.jpg" alt="Clôture PISCCA" />
+          </div>
+          <div class="text">
+            <span class="actu_date">8 décembre 2020</span><br />
+            <a class="text_heading" href="#">Clôture des projets PISCCA 2019-2020</a>
+            <p>
+              Le vendredi 04 décembre 2020, quinze associations burkinabè, ont présenté les activités qu’elles ont réalisées grâce au fonds d’appui PISCCA, soit un montant total de 491 millions de F CFA, octroyé par l’ambassade de (...)<br /><a href="#">&rightarrow; [lire...]</a>
+            </p>
+          </div>
         </div>
-        <div class="little_block actu_diplo">
-            <div class="heading">
-                <span>Actualités Diplomatiques</span>
-            </div>
-            <ul>
-                <li>
-                    <span class="date">7 décembre 2020</span><br>
-                    <a href="#">&rightarrow;Obsèques de l’assassin de Samuel Paty-Q&R-Extrait du point de presse (07.12.20)</a>
-                </li><br>
-                <li>
-                    <span class="date">7 décembre 2020</span><br>
-                    <a href="#">&rightarrow;Algérie-Q&R-Extrait du point de presse (07.12.20)</a>
-                </li><br>
-                <li>
-                    <span class="date">7 décembre 2020</span><br>
-                    <a href="#">&rightarrow;Israël/Territoires palestiniens - Q&R - Extrait du point de presse (07.12.20)</a>
-                </li><br>
-                <li>
-                    <span class="date">7 décembre 2020</span><br>
-                    <a href="#">&rightarrow;Uruguay – Entretien de M. Franck Riester avec le ministre des relations extérieures de l’Uruguay (6 décembre 2020)</a>
-                </li><br>
-                <li>
-                    <span class="date">7 décembre 2020</span><br>v
-                    <a href="#">&rightarrow;Note aux rédactions - Point de presse de MM. Jean-Yves Le Drian et Ara Ayzavian (0.12.20)</a>
-                </li><br>
-                <li>
-                    <span class="date">7 décembre 2020</span><br>
-                    <a href="#">&rightarrow;LattitudeFrance</a>
-                </li><br>
-                <li>
-                    <a href="#">&rightarrow;Actualités diplomatiques</a>
-                </li>
-            </ul>
+        <div class="actu_content">
+          <div class="actu_img">
+            <img src="images/old_presi.jpg" alt="Hommage à Valéry Giscard d'Estaing" />
+          </div>
+          <div class="text">
+            <span class="actu_date">7 décembre 2020</span><br />
+            <a class="text_heading" href="#">Hommage au Président Valéry Giscard d’Estaing</a>
+            <p>
+              Ouverture d’un registre de condoléances à la Résidence de France.
+Un registre est ouvert à la Résidence de l’ambassade de France à Ouagadougou, à compter de ce lundi 7 décembre jusqu’au mercredi 9 décembre 2020, de 09h00 (...)<br /><a href="#">&rightarrow; [lire...]</a>
+            </p>
+          </div>
         </div>
+        <div class="actu_content">
+          <div class="actu_img">
+            <img src="images/lutte_vih.jpg" alt="Lutte contre le VIH/Sida" />
+          </div>
+          <div class="text">
+            <span class="actu_date">7 décembre 2020</span><br />
+            <a class="text_heading" href="#">Lutte contre le VIH/Sida : l’ambassade soutient une campagne de sensibilisation</a>
+            <p>
+              En rappel, l’ambassadeur de France, M. Luc Hallade, avait signé une convention à hauteur de 22 639 000 FCFA, avec différents acteurs œuvrant pour la cause des enfants et jeunes en difficulté, en septembre 2020, pour (...)<br /><a href="#">&rightarrow; [lire...]</a>
+            </p>
+          </div>
+        </div>
+        <div class="actu_content">
+          <div class="actu_img">
+            <img src="images/blue_france.jpg" alt="Signaler les contenus supects" />
+          </div>
+          <div class="text">
+            <span class="actu_date">20 novembre 2020</span><br />
+            <a class="text_heading" href="#">Signaler un contenu suspect ou illicite avec PHAROS</a>
+            <p>
+              Internet et les médias sociaux proposent des contenus fondés sur la participation, le partage et l’échange. Ils sont les modes de communication qui mettent en relation des personnes autour d’intérêts communs. (...)<br /><a href="#">&rightarrow; [lire...]</a>
+            </p>
+          </div>
+        </div>
+        <div class="actu_content">
+          <div class="actu_img">
+            <img src="images/ceremonie.jpg" alt="Commémoration du 102e anniversaire de l’Armistice du 11 novembre 1918" />
+          </div>
+          <div class="text">
+            <span class="actu_date">19 novembre 2020</span><br />
+            <a class="text_heading" href="#">Commémoration du 102e anniversaire de l’Armistice du 11 novembre 1918</a>
+            <p>
+              A Ouagadougou, la cérémonie présidée par son excellence Monsieur l’ambassadeur de France et le chef d’état-major général des armées burkinabè, a rassemblé de nombreuses délégations diplomatiques, des militaires burkinabè, français, (...)<br /><a href="#">&rightarrow; [lire...]</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card useful_links">
+        <div class="heading">
+          <span>Liens utiles</span>
+        </div>
+        <div class="content">
+          <div class="links">
+              <a href="#">&rightarrow; Expertise France</a>
+              <a href="#">&rightarrow; Campus France</a>
+              <a href="#">&rightarrow; France Volontaire</a>
+              <a href="#">&rightarrow; Label Qualité français langue étrangère</a>
+              <a href="#">&rightarrow; Vivre à l’étranger</a>
+              <a href="#">&rightarrow; LatitudeFrance</a>
+          </div>
+        </div>
+      </div>
+      <div class="card apointment">
+        <div class="heading">
+          <span>Prendre un rendez-vous avec le Consulat</span>
+        </div>
+        <div class="content">
+          <img class="content_img custom" src="images/consulat.png" alt="Prendre un rendez-vous avec le Consulat" />
+        </div>
+      </div>
+      <div class="actu foreign_actu">
+        <div class="actu_head">
+          <span class="actu_heading">Actualités Diplomatiques</span>
+        </div>
+        <hr />
+        <div class="actu_content">
+           <div class="text">
+            <span class="actu_date">7 décembre 2020</span><br />
+            <div class="links mt-2">
+              <a href="#">&rightarrow; Obsèques de l’assassin de Samuel Paty - Q&R - Extrait du point de presse (07.12.20)</a>
+            </div>
+        </div>
+      </div>
+        <div class="actu_content">
+           <div class="text">
+            <span class="actu_date">7 décembre 2020</span><br />
+            <div class="links mt-2">
+              <a href="#">&rightarrow; Israël/Territoires palestiniens - Q&R - Extrait du point de presse (07.12.20)</a>
+           </div>
+        </div>
+      </div>
+        <div class="actu_content">
+           <div class="text">
+            <span class="actu_date">7 décembre 2020</span><br />
+            <div class="links mt-2">
+              <a href="#">&rightarrow; Uruguay – Entretien de M. Franck Riester avec le ministre des relations extérieures de l’Uruguay (6 décembre 2020)</a>
+           </div>
+        </div>
+      </div>
+        <div class="actu_content">
+           <div class="text">
+            <span class="actu_date">7 décembre 2020</span><br />
+            <div class="links mt-2">
+              <a href="#">&rightarrow; Uruguay – Entretien de Franck Riester avec le ministre des Relations extérieures de l’Uruguay (6 décembre 2020)</a>
+            </div>
+          </div>
+        </div>
+        <div class="actu_content plus">
+          <a href="#">&rightarrow;Actualités diplomatiques</a>
+        </div>
+       </div>
+      </div>
+      <div class="card institute">
+        <div class="heading">
+          <span>Cliquez sur l’image ci-dessous pour découvrir le programme</span>
+        </div>
+        <div class="content">
+          <a class="institute_img" href="#">
+             <img src="images/institut.png" class="institute_img" alt="Institut français" />
+          </a>
+        </div>
+      </div>
     </main>
     <footer>
         <div class="footer_block_1">
             <h2>La France au Burkina Faso</h2>
-            <div>
-                <ul>
-                    <li>
-                       <a href="#">&rightarrow;Mention légale</a>
-                    </li>
-                    <li>
-                        <a href="#">&rightarrow;Nous contacter</a>
-                     </li>
-                     <li>
-                        <a href="#">&rightarrow;Politique de confidentialité</a>
-                     </li>
-                </ul>
-                <ul>
-                    <li>
-                       <a href="#">&rightarrow;A propos</a>
-                    </li>
-                    <li>
-                        <a href="#">&rightarrow;Plan du site</a>
-                     </li>
-                </ul>
+            <div class="f_links">
+                <div>
+                    <a href="#">&rightarrow;Mention légale</a>
+                    <a href="#">&rightarrow;Nous contacter</a>
+                    <a href="#">&rightarrow;Politique de confidentialité</a>
+                </div>
+                <div>
+                    <a href="#">&rightarrow;A propos</a>
+                    <a href="#">&rightarrow;Plan du site</a>
+                </div>
             </div>
         </div>
         
         <div class="footer_block_2">
             <h2>Outils</h2>
-                <ul>
-                    <li>
-                       <a href="#">&rightarrow;Augmenter/diminuer la police <span id="a_plus">A+</span><span id="a_minus">A-</span></a>
-                    </li>
-                    <li>
-                        <a href="#">&rightarrow;S'inscrire au flux RSS <img src="fonts/wifi_blanc.png" class="wifi_blanc"></a>
-                     </li>
-                </ul>
+            <div class="f_link">
+                <a href="#">&rightarrow;Augmenter/diminuer la police <span id="a_plus">A+</span><span id="a_minus">A-</span></a><br>
+                <a class="flux" href="#">&rightarrow;S'inscrire au flux RSS<img src="fonts/wifi_blanc.png" class="wifi_blanc"></a>
+            </div>
         </div>
-        
         <div class="footer_block_3">
             <h2>Liens institutionnels</h2>
-            <div>
-                <ul>
-                    <li>
-                       <a href="#">&rightarrow;france.fr</a>
-                    </li>
-                    <li>
-                        <a href="#">&rightarrow;gouvernement.fr</a>
-                     </li>
-                     <li>
-                        <a href="#">&rightarrow;legit.france.fr</a>
-                     </li>
-                </ul>
-                <ul>
-                    <li>
-                       <a href="#">&rightarrow;service-public.fr</a>
-                    </li>
-                    <li>
-                        <a href="#">&rightarrow;data.gov.fr</a>
-                     </li>
-                     <li>
-                         <a href="#">&rightarrow;diplomatie.gov.fr</a>
-                     </li>
-                </ul>
+            <div class="f_links">
+                <div>
+                    <a href="#">&rightarrow;france.fr</a>
+                    <a href="#">&rightarrow;gouvernement.fr</a>
+                    <a href="#">&rightarrow;legit.france.fr</a>
+                </div>
+                <div>
+                    <a href="#">&rightarrow;service-public.fr</a>
+                    <a href="#">&rightarrow;data.gov.fr</a>
+                    <a href="#">&rightarrow;diplomatie.gov.fr</a>
+                </div>
             </div>
         </div>
     </footer>
-    <script src="js/app.js"></script>
-</body>
+    <script src="js/app.js" type="text/javascript" charset="utf-8" async></script>
+  </body>
 </html>
